@@ -23,7 +23,7 @@ export const About: React.FC = () => {
     {
       icon: CalendarDays,
       title: 'Daily Rental Options',
-      desc: 'Clear, transparent daily rental pricing from ₹1,400/day to ₹5,000/day.',
+      desc: 'Clear, transparent daily rental pricing from ₹1,400/day to ₹8,000/day.',
     },
     {
       icon: PhoneCall,

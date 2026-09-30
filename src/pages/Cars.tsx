@@ -13,7 +13,7 @@ export const CarsPage: React.FC = () => {
         <title>All Self Drive Cars in Jamshedpur | VK Rides Fleet & Pricing</title>
         <meta
           name="description"
-          content="Browse all 30 self-drive rental cars available with VK Rides in Jamshedpur. Daily rates from ₹1,400 to ₹5,500/day. Instant enquiry via WhatsApp."
+          content="Browse all 30 self-drive rental cars available with VK Rides in Jamshedpur. Daily rates from ₹1,400 to ₹8,000/day. Instant enquiry via WhatsApp."
         />
         <link rel="canonical" href="https://vkrides.in/cars" />
       </Helmet>

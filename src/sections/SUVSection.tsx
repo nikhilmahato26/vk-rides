@@ -32,10 +32,10 @@ export const SUVSection: React.FC<SUVSectionProps> = ({ onSelectCar }) => {
     },
     {
       name: 'Fortuner',
-      price: 5500,
+      price: 8000,
       image: '/images/cars/fortuner.webp',
       badge: 'Full-Size Luxury',
-      sub: '₹5,500 / day',
+      sub: '₹8,000 / day',
     },
     {
       name: 'XUV 700',

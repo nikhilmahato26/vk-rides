@@ -13,7 +13,7 @@ export const Fleet: React.FC<FleetProps> = ({ onSelectCar, filterCarId }) => {
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [sortBy, setSortBy] = useState<string>('recommended');
-  const [maxPrice, setMaxPrice] = useState<number>(5500);
+  const [maxPrice, setMaxPrice] = useState<number>(8000);
 
   // If a filterCarId was set externally from BookingWidget
   React.useEffect(() => {
@@ -112,7 +112,7 @@ export const Fleet: React.FC<FleetProps> = ({ onSelectCar, filterCarId }) => {
               onClick={() => {
                 setSelectedCategory('all');
                 setSearchQuery('');
-                setMaxPrice(5500);
+                setMaxPrice(8000);
               }}
               className="mt-4 px-4 py-2 rounded-xl bg-[#f7b900] text-[#09090b] font-bold text-xs"
             >

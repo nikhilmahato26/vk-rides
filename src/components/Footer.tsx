@@ -6,7 +6,7 @@ import { CONTACT_INFO } from '../utils/contact';
 export const Footer: React.FC = () => {
   const popularVehicles = [
     { name: 'Thar ROXX', price: '₹5,500/day' },
-    { name: 'Fortuner', price: '₹5,500/day' },
+    { name: 'Fortuner', price: '₹8,000/day' },
     { name: 'Scorpio N', price: '₹5,000/day' },
     { name: 'Thar', price: '₹4,500/day' },
     { name: 'Innova Crysta', price: '₹3,500/day' },

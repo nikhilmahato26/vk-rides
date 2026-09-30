@@ -59,7 +59,7 @@ export const Home: React.FC = () => {
             image: '/images/cars/hero-banner.webp',
             telephone: '+919102430175',
             email: 'vijaysinghchatra54@gmail.com',
-            priceRange: '₹1400 - ₹5500 / day',
+            priceRange: '₹1400 - ₹8000 / day',
             address: {
               '@type': 'PostalAddress',
               addressLocality: 'Jamshedpur',

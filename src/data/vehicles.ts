@@ -15,7 +15,7 @@ export const vehicles: Vehicle[] = [
     id: 'fortuner',
     name: 'Fortuner',
     category: 'SUV',
-    pricePerDay: 5500,
+    pricePerDay: 8000,
     image: '/images/cars/fortuner.webp',
     description: 'Commanding luxury full-size SUV offering legendary road presence, unmatched reliability, and plush 7-seater comfort.',
     seats: 7,
@@ -315,6 +315,6 @@ export const businessDetails = {
   email: 'vijaysinghchatra54@gmail.com',
   emailLink: 'mailto:vijaysinghchatra54@gmail.com',
   startingPrice: 1400,
-  maxPrice: 5500,
+  maxPrice: 8000,
   optionsCount: 30,
 };

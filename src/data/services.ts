@@ -96,7 +96,7 @@ export const whyChooseItems: WhyChooseItem[] = [
   {
     id: 5,
     title: 'Options for Every Budget',
-    description: 'Daily rental options range from ₹1,400 to ₹5,000 based on the supplied vehicle list.',
-    badge: '₹1,400 to ₹5,000/Day',
+    description: 'Daily rental options range from ₹1,400 to ₹8,000 based on the supplied vehicle list.',
+    badge: '₹1,400 to ₹8,000/Day',
   },
 ];
