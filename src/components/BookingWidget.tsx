@@ -142,7 +142,7 @@ export const BookingWidget: React.FC<BookingWidgetProps> = ({ onSearch }) => {
               onChange={(e) => setSelectedCar(e.target.value)}
               className="mt-1 bg-transparent text-sm font-semibold text-white focus:outline-none cursor-pointer truncate"
             >
-              <option value="all" className="bg-[#171d1a] text-white">All 21 Vehicles</option>
+              <option value="all" className="bg-[#171d1a] text-white">All {vehicles.length} Vehicles</option>
               {vehicles.map((v) => (
                 <option key={v.id} value={v.id} className="bg-[#171d1a] text-white">
                   {v.name} (₹{v.pricePerDay.toLocaleString('en-IN')}/day)

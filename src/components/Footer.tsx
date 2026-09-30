@@ -5,14 +5,14 @@ import { CONTACT_INFO } from '../utils/contact';
 
 export const Footer: React.FC = () => {
   const popularVehicles = [
+    { name: 'Thar ROXX', price: '₹5,500/day' },
+    { name: 'Fortuner', price: '₹5,500/day' },
     { name: 'Scorpio N', price: '₹5,000/day' },
     { name: 'Thar', price: '₹4,500/day' },
-    { name: 'Scorpio S11', price: '₹3,500/day' },
-    { name: 'Creta', price: '₹3,000/day' },
-    { name: 'Grand Vitara', price: '₹2,800/day' },
-    { name: 'Ertiga', price: '₹2,500/day' },
-    { name: 'Dzire', price: '₹2,000/day' },
-    { name: 'Swift', price: '₹1,800/day' },
+    { name: 'Innova Crysta', price: '₹3,500/day' },
+    { name: 'XUV 700', price: '₹3,000/day' },
+    { name: 'Safari', price: '₹3,000/day' },
+    { name: 'Nexon', price: '₹2,500/day' },
   ];
 
   return (

@@ -73,7 +73,7 @@ export const whyChooseItems: WhyChooseItem[] = [
     id: 1,
     title: 'Wide Vehicle Selection',
     description: 'Cars ranging from economical hatchbacks to premium SUVs.',
-    badge: '21 Vehicle Options',
+    badge: '30 Vehicle Options',
   },
   {
     id: 2,

@@ -10,6 +10,13 @@ interface SUVSectionProps {
 export const SUVSection: React.FC<SUVSectionProps> = ({ onSelectCar }) => {
   const suvs = [
     {
+      name: 'Thar ROXX',
+      price: 5500,
+      image: '/images/cars/thar-roxx.webp',
+      badge: 'Flagship 5-Door',
+      sub: '₹5,500 / day',
+    },
+    {
       name: 'Scorpio N',
       price: 5000,
       image: '/images/cars/scorpio-n.webp',
@@ -20,21 +27,28 @@ export const SUVSection: React.FC<SUVSectionProps> = ({ onSelectCar }) => {
       name: 'Thar',
       price: 4500,
       image: '/images/cars/thar.webp',
-      badge: 'Iconic Machine',
+      badge: 'Iconic 4x4',
       sub: '₹4,500 / day',
     },
     {
-      name: 'Scorpio S11',
-      price: 3500,
-      image: '/images/cars/scorpio-s11.webp',
-      badge: 'Classic Muscular',
-      sub: '₹3,500 / day',
+      name: 'Fortuner',
+      price: 5500,
+      image: '/images/cars/fortuner.webp',
+      badge: 'Full-Size Luxury',
+      sub: '₹5,500 / day',
     },
     {
-      name: 'Scorpio S',
+      name: 'XUV 700',
       price: 3000,
-      image: '/images/cars/scorpio-s.webp',
-      badge: 'Full Size SUV',
+      image: '/images/cars/xuv700.webp',
+      badge: 'High-Tech Luxury',
+      sub: '₹3,000 / day',
+    },
+    {
+      name: 'Safari',
+      price: 3000,
+      image: '/images/cars/safari.webp',
+      badge: 'Executive 7-Seater',
       sub: '₹3,000 / day',
     },
   ];
@@ -69,8 +83,8 @@ export const SUVSection: React.FC<SUVSectionProps> = ({ onSelectCar }) => {
           </p>
         </div>
 
-        {/* 4 Featured SUVs Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {/* 6 Featured SUVs Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {suvs.map((suv, idx) => (
             <motion.div
               key={suv.name}
@@ -163,18 +177,18 @@ export const SUVSection: React.FC<SUVSectionProps> = ({ onSelectCar }) => {
             <div className="bg-[#111513] border border-white/10 rounded-2xl p-6 sm:p-8 flex items-center justify-between gap-4">
               <div>
                 <span className="text-xs font-bold uppercase tracking-wider text-zinc-400">
-                  Premium SUV
+                  Premium SUV Flagship
                 </span>
                 <div className="text-3xl sm:text-5xl font-extrabold text-[#f7b900] font-display mt-1">
-                  ₹5,000 <span className="text-sm sm:text-base font-normal text-zinc-400">/ Day</span>
+                  ₹5,500 <span className="text-sm sm:text-base font-normal text-zinc-400">/ Day</span>
                 </div>
                 <div className="mt-2 text-sm font-semibold text-zinc-200">
-                  Vehicle: <strong className="text-white">Scorpio N (SUV)</strong>
+                  Vehicle: <strong className="text-white">Thar ROXX (5-Door)</strong>
                 </div>
               </div>
 
               <div className="w-24 sm:w-32 aspect-video bg-[#171d1a] rounded-xl p-2 flex items-center justify-center shrink-0">
-                <img src="/images/cars/scorpio-n.webp" alt="Scorpio N" className="w-full h-full object-contain" />
+                <img src="/images/cars/thar-roxx.webp" alt="Thar ROXX" className="w-full h-full object-contain" />
               </div>
             </div>
           </div>

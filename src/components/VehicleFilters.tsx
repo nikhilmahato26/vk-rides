@@ -86,8 +86,8 @@ export const VehicleFilters: React.FC<VehicleFiltersProps> = ({
           <input
             type="range"
             min="1400"
-            max="5000"
-            step="200"
+            max="5500"
+            step="100"
             value={maxPrice}
             onChange={(e) => onMaxPriceChange(Number(e.target.value))}
             className="w-28 sm:w-36 accent-[#f7b900] cursor-pointer"

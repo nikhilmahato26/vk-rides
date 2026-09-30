@@ -37,7 +37,7 @@ export const Home: React.FC = () => {
         />
         <meta
           name="keywords"
-          content="VK Rides Self Drive Car, self drive car Jamshedpur, self drive cars in Jamshedpur, car rental Jamshedpur, self drive car rental Jamshedpur, Scorpio rental Jamshedpur, Thar rental Jamshedpur, Creta rental Jamshedpur, Ertiga rental Jamshedpur, Dzire rental Jamshedpur, car rental Jharkhand, self drive rental Jharkhand"
+          content="VK Rides Self Drive Car, self drive car Jamshedpur, self drive cars in Jamshedpur, car rental Jamshedpur, self drive car rental Jamshedpur, Thar ROXX rental Jamshedpur, Scorpio rental Jamshedpur, Thar rental Jamshedpur, XUV 700 rental Jamshedpur, Safari rental Jamshedpur, Nexon rental Jamshedpur, Creta rental Jamshedpur, Ertiga rental Jamshedpur, Punch rental Jamshedpur, Dzire rental Jamshedpur, car rental Jharkhand, self drive rental Jharkhand"
         />
         <link rel="canonical" href="https://vkrides.in" />
 
@@ -59,7 +59,7 @@ export const Home: React.FC = () => {
             image: '/images/cars/hero-banner.webp',
             telephone: '+919102430175',
             email: 'vijaysinghchatra54@gmail.com',
-            priceRange: '₹1400 - ₹5000 / day',
+            priceRange: '₹1400 - ₹5500 / day',
             address: {
               '@type': 'PostalAddress',
               addressLocality: 'Jamshedpur',

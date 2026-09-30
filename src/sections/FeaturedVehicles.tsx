@@ -10,14 +10,24 @@ interface FeaturedVehiclesProps {
 export const FeaturedVehicles: React.FC<FeaturedVehiclesProps> = ({ onSelectCar }) => {
   const featured = [
     {
+      name: 'Thar ROXX',
+      category: 'SUV',
+      price: 5500,
+      image: '/images/cars/thar-roxx.webp',
+      badge: 'Ultimate Flagship',
+      description: 'The sensational 5-door adventure SUV combining iconic rugged presence with executive luxury cabin comfort.',
+      cta: 'Book Thar ROXX',
+      specs: ['5 Seats', '5-Door Flagship', 'Bold Stance', 'Luxury Cabin'],
+    },
+    {
       name: 'Scorpio N',
       category: 'SUV',
       price: 5000,
       image: '/images/cars/scorpio-n.webp',
-      badge: 'Flagship Powerhouse',
+      badge: 'Executive Powerhouse',
       description: 'The Big Daddy of SUVs. Supreme road presence, robust dynamics, and executive 7-seater comfort for long drives.',
       cta: 'Book Scorpio N',
-      specs: ['7 Seats', 'Flagship SUV', 'High Stance', 'Luxury Cabin'],
+      specs: ['7 Seats', 'Flagship SUV', 'High Stance', 'Plush Interior'],
     },
     {
       name: 'Thar',
@@ -28,16 +38,6 @@ export const FeaturedVehicles: React.FC<FeaturedVehiclesProps> = ({ onSelectCar 
       description: 'The undisputed king of rugged style. Unmatched road presence that commands attention anywhere in Jharkhand.',
       cta: 'Book Thar',
       specs: ['4 Seats', 'Bold Stance', 'Iconic Styling', 'High Clearance'],
-    },
-    {
-      name: 'Scorpio S11',
-      category: 'SUV',
-      price: 3500,
-      image: '/images/cars/scorpio-s11.webp',
-      badge: 'Proven Classic',
-      description: 'Legendary muscular road presence, high driving posture, and massive interior room for family and group travel.',
-      cta: 'Book Scorpio S11',
-      specs: ['7 Seats', 'Heavy Duty', 'High Clearance', 'Proven Reliability'],
     },
   ];
 

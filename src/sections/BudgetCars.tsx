@@ -33,6 +33,14 @@ export const BudgetCars: React.FC<BudgetCarsProps> = ({ onSelectCar }) => {
       highlight: 'Responsive handling & great fuel efficiency',
     },
     {
+      name: 'Punch',
+      category: 'SUV',
+      price: 2000,
+      image: '/images/cars/punch.webp',
+      badge: 'Micro SUV',
+      highlight: 'High seating stance & 5-star crash safety rating',
+    },
+    {
       name: 'Baleno',
       category: 'Hatchback',
       price: 2000,
@@ -87,7 +95,7 @@ export const BudgetCars: React.FC<BudgetCarsProps> = ({ onSelectCar }) => {
           </button>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4">
           {budgetCars.map((car, idx) => (
             <motion.div
               key={car.name}

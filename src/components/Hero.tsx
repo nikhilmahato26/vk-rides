@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Phone, ArrowRight, ShieldCheck } from 'lucide-react';
 import { CONTACT_INFO } from '../utils/contact';
+import { businessDetails } from '../data/vehicles';
 
 export const Hero: React.FC = () => {
   const scrollToFleet = () => {
@@ -118,7 +119,7 @@ export const Hero: React.FC = () => {
             </div>
             <div className="flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-[#5ee9b5]"></span>
-              <span className="font-semibold text-white">21 Vehicle Options</span>
+              <span className="font-semibold text-white">{businessDetails.optionsCount} Vehicle Options</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-[#f7b900]"></span>

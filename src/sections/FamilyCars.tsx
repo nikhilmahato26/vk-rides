@@ -33,12 +33,20 @@ export const FamilyCars: React.FC<FamilyCarsProps> = ({ onSelectCar }) => {
       highlight: 'Spacious recreation vehicle with generous family legroom',
     },
     {
-      name: 'Grand Vitara',
+      name: 'XUV 700',
       category: 'SUV',
-      price: 2800,
-      seats: '5 Seater',
-      image: '/images/cars/grand-vitara.webp',
-      highlight: 'Ultra-smooth suspension and refined highway cruiser',
+      price: 3000,
+      seats: '7 Seater',
+      image: '/images/cars/xuv700.webp',
+      highlight: 'High-tech 7-seater flagship SUV with panoramic skyroof',
+    },
+    {
+      name: 'Innova Crysta',
+      category: 'MPV',
+      price: 3500,
+      seats: '7 Seater',
+      image: '/images/cars/innova-crysta.webp',
+      highlight: 'The ultimate executive family MPV with unmatched long-drive comfort',
     },
     {
       name: 'Creta',
@@ -87,7 +95,7 @@ export const FamilyCars: React.FC<FamilyCarsProps> = ({ onSelectCar }) => {
           </button>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4">
           {familyCars.map((car, idx) => (
             <motion.div
               key={car.name}
